@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/MelvinManni/Tv-mood/precache-manifest.752bb3d02ef00e897bde018621187370.js"
+  "/MelvinManni/Tv-mood/precache-manifest.86ab4df3bb1f6d1e5f61755dd57bf0c1.js"
 );
 
 self.addEventListener('message', (event) => {

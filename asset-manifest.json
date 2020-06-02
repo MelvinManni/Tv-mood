@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/MelvinManni/Tv-mood/static/css/main.434134a6.chunk.css",
-    "main.js": "/MelvinManni/Tv-mood/static/js/main.dce7250c.chunk.js",
-    "main.js.map": "/MelvinManni/Tv-mood/static/js/main.dce7250c.chunk.js.map",
+    "main.js": "/MelvinManni/Tv-mood/static/js/main.4eee741d.chunk.js",
+    "main.js.map": "/MelvinManni/Tv-mood/static/js/main.4eee741d.chunk.js.map",
     "runtime-main.js": "/MelvinManni/Tv-mood/static/js/runtime-main.d1542309.js",
     "runtime-main.js.map": "/MelvinManni/Tv-mood/static/js/runtime-main.d1542309.js.map",
     "static/js/2.a3dd6422.chunk.js": "/MelvinManni/Tv-mood/static/js/2.a3dd6422.chunk.js",
     "static/js/2.a3dd6422.chunk.js.map": "/MelvinManni/Tv-mood/static/js/2.a3dd6422.chunk.js.map",
     "index.html": "/MelvinManni/Tv-mood/index.html",
-    "precache-manifest.752bb3d02ef00e897bde018621187370.js": "/MelvinManni/Tv-mood/precache-manifest.752bb3d02ef00e897bde018621187370.js",
+    "precache-manifest.86ab4df3bb1f6d1e5f61755dd57bf0c1.js": "/MelvinManni/Tv-mood/precache-manifest.86ab4df3bb1f6d1e5f61755dd57bf0c1.js",
     "service-worker.js": "/MelvinManni/Tv-mood/service-worker.js",
     "static/css/main.434134a6.chunk.css.map": "/MelvinManni/Tv-mood/static/css/main.434134a6.chunk.css.map",
     "static/js/2.a3dd6422.chunk.js.LICENSE.txt": "/MelvinManni/Tv-mood/static/js/2.a3dd6422.chunk.js.LICENSE.txt",
@@ -27,6 +27,6 @@
     "static/js/runtime-main.d1542309.js",
     "static/js/2.a3dd6422.chunk.js",
     "static/css/main.434134a6.chunk.css",
-    "static/js/main.dce7250c.chunk.js"
+    "static/js/main.4eee741d.chunk.js"
   ]
 }
