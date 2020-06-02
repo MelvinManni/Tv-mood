@@ -1,0 +1,94 @@
+.header {
+  padding: 20px 40px;
+}
+
+nav{
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    justify-content: space-between;
+}
+
+/* ===NAVLOGO=== */
+
+.navLogo,
+.navList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navLogo img {
+  width: 60px;
+}
+
+.navLogo p {
+  font-size: 28px;
+  align-self: flex-end;
+  margin-left: 10px;
+}
+
+.navLogo p span {
+  font-size: 32px;
+  font-weight: 500;
+  background: -webkit-linear-gradient( #333, #0080ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.navList {
+    margin-right: 150px;
+    font-size: 18px;
+}
+
+.navList .navListItem a{
+    margin-left: 20px;
+    color: #000;
+    transition: 0.3s ease all;
+    font-weight: 500;
+}
+.navList .navListItem a:hover{
+    color: #0080ff;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #0080ff; 
+    border-radius: 0 0 3px 3px;
+}
+
+.navList .navListItem a:active{
+    color: #0080ff;
+}
+
+.navList .navListItem a:first-child{
+    margin-left: 0;
+}
+
+.subHead{
+    height: 20px;
+    width: 100%;
+    background: #333;
+}
+
+
+
+@media all and (max-width: 720px) {
+    .header{
+        padding:20px ;
+    }
+    .navList{
+        margin-right: 0px;
+    }
+}
+
+@media all and (max-width: 480px){
+    nav{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .navList{
+        margin-top: 20px;
+        align-self: center;
+    }
+}

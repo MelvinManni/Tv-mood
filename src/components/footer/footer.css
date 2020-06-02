@@ -1,0 +1,90 @@
+footer {
+  height: max-content;
+  background: #333;
+  width: 100%;
+  padding: 40px 20px;
+}
+
+.footFlex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.footLogo {
+  align-self: flex-start;
+  justify-self: flex-start;
+}
+
+.footLogo a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #fff;
+}
+
+.footLogo img {
+  width: 40px;
+}
+
+.footLogo p {
+  font-size: 24px;
+  align-self: flex-end;
+  margin-left: 10px;
+}
+
+.footLogo p span {
+  font-size: 28px;
+  font-weight: 500;
+  background: -webkit-linear-gradient(#333, #0080ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title {
+  text-align: center;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.quicklinks div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quicklinks div a {
+  color: rgba(255, 255, 255, 0.5);
+  transition: 0.3s ease all;
+}
+
+.quicklinks div a:hover {
+    padding-bottom: 3px;
+    border-bottom: 1px solid #0080ff;
+}
+/* ??SOCIAL?? */
+
+.mt {
+  margin-top: 10px;
+}
+
+.socialFlex div {
+  display: flex;
+  justify-content: space-evenly;
+  width: 240px;
+}
+.socialFlex div img {
+  width: 20px;
+}
+
+@media all and (max-width: 540px) {
+  .footFlex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footFlex > div{
+      margin-bottom: 25px;
+  }
+}

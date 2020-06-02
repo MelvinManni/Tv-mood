@@ -1,0 +1,45 @@
+.errorFlex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 10px;
+}
+
+.errorFlex img {
+  margin-bottom: 10px;
+  width: 80px;
+  transition: 0.2s ease;
+  transform: rotate(-10deg);
+}
+
+.errorFlex p {
+  font-family: 'PT Mono', monospace;
+}
+
+.errorFlex p span {
+  font-size: 20px;
+}
+
+.errorFlex img:hover {
+  animation: 0.6s rotate 1;
+}
+
+@keyframes rotate {
+    10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}

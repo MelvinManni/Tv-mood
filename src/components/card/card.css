@@ -1,0 +1,102 @@
+.card {
+  position: relative;
+  width: 280px;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  color: #fff;
+  margin: 10px;
+  overflow: hidden;
+  border-radius: 4px 4px 0 0;
+}
+
+.cardTitleAnimation {
+  padding: 10px 5px;
+  background-size: 100% 200%; background-position: 0 -100%; background-image: linear-gradient(to top, transparent 50%, #0080ff 50%);
+  transition: 0.4s ease all;
+  -webkit-transition: 0.4s ease all;
+}
+
+.cardTitle {
+  position: absolute;
+  font-weight: 600;
+  top: 0px;
+  width: 100%;
+
+  background-color: rgba(0, 0, 0, 0.679);
+}
+
+.cardTitle h2 {
+  width: 100%;
+  text-align: center;
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  transition: 0.4s ease all;
+  -webkit-transition: 0.4s ease all;
+}
+
+.details {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.absolute-position {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 0 15px;
+  background: linear-gradient(0deg, #000 90%, transparent);
+  bottom: -205px;
+  transition: 0.4s ease;
+}
+
+.card:hover .details .absolute-position {
+  bottom: 0px;
+  background: linear-gradient(0deg, #000 70%, transparent);
+}
+
+.card:hover .cardTitle h2{
+  font-size: 20px;
+}
+
+.card:hover .cardTitleAnimation {
+  background-position: 0 0;
+}
+
+.cardBody {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.cardBody::before {
+  content: '';
+  text-align: justify;
+}
+
+.cardTop {
+  margin-bottom: 10px;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardTop p:first-child {
+  font-family: 'PT Mono', monospace;
+}
+
+.programType {
+  text-transform: capitalize;
+  padding: 5px;
+  background: #0080ff;
+  border-radius: 4px;
+  width: 60px;
+  text-align: center;
+}
+
+/* CARD STYLE ENDS=== */
