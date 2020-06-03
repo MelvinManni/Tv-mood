@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ae2fc69a2b5772194b4c9364b6c750a7",
+    "revision": "7323c7e33977b47cdbde982aec7fb43f",
     "url": "/Tv-mood/index.html"
   },
   {
-    "revision": "6b75d1b2d57e84fe26d7",
+    "revision": "44a2a3d688a209144345",
     "url": "/Tv-mood/static/css/main.c55e219d.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Tv-mood/static/js/2.c0e4f669.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6b75d1b2d57e84fe26d7",
-    "url": "/Tv-mood/static/js/main.6881a061.chunk.js"
+    "revision": "44a2a3d688a209144345",
+    "url": "/Tv-mood/static/js/main.a2606e3b.chunk.js"
   },
   {
     "revision": "fe3c26c10e9753d61062",

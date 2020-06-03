@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Tv-mood/static/css/main.c55e219d.chunk.css",
-    "main.js": "/Tv-mood/static/js/main.6881a061.chunk.js",
-    "main.js.map": "/Tv-mood/static/js/main.6881a061.chunk.js.map",
+    "main.js": "/Tv-mood/static/js/main.a2606e3b.chunk.js",
+    "main.js.map": "/Tv-mood/static/js/main.a2606e3b.chunk.js.map",
     "runtime-main.js": "/Tv-mood/static/js/runtime-main.beccee62.js",
     "runtime-main.js.map": "/Tv-mood/static/js/runtime-main.beccee62.js.map",
     "static/js/2.c0e4f669.chunk.js": "/Tv-mood/static/js/2.c0e4f669.chunk.js",
     "static/js/2.c0e4f669.chunk.js.map": "/Tv-mood/static/js/2.c0e4f669.chunk.js.map",
     "index.html": "/Tv-mood/index.html",
-    "precache-manifest.852eb1918f3cd745cf4f77f8d77c8866.js": "/Tv-mood/precache-manifest.852eb1918f3cd745cf4f77f8d77c8866.js",
+    "precache-manifest.1bffb6e5527e5535773febc705a28e84.js": "/Tv-mood/precache-manifest.1bffb6e5527e5535773febc705a28e84.js",
     "service-worker.js": "/Tv-mood/service-worker.js",
     "static/css/main.c55e219d.chunk.css.map": "/Tv-mood/static/css/main.c55e219d.chunk.css.map",
     "static/js/2.c0e4f669.chunk.js.LICENSE.txt": "/Tv-mood/static/js/2.c0e4f669.chunk.js.LICENSE.txt",
@@ -27,6 +27,6 @@
     "static/js/runtime-main.beccee62.js",
     "static/js/2.c0e4f669.chunk.js",
     "static/css/main.c55e219d.chunk.css",
-    "static/js/main.6881a061.chunk.js"
+    "static/js/main.a2606e3b.chunk.js"
   ]
 }
