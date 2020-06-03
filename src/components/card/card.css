@@ -17,7 +17,7 @@
   padding: 10px 5px;
   background-size: 100% 200%; background-position: 0 -100%; background-image: linear-gradient(to top, transparent 50%, #0080ff 50%);
   transition: 0.4s ease all;
-  -webkit-transition: 0.4s ease all;
+  -webkit-transition: 0.25s ease all;
 }
 
 .cardTitle {
@@ -35,7 +35,7 @@
   font-family: 'Lora', serif;
   font-size: 18px;
   transition: 0.4s ease all;
-  -webkit-transition: 0.4s ease all;
+  -webkit-transition: 0.25s ease all;
 }
 
 .details {
@@ -51,7 +51,7 @@
   padding: 0 15px;
   background: linear-gradient(0deg, #000 90%, transparent);
   bottom: -205px;
-  transition: 0.4s ease;
+  transition: 0.25s ease;
 }
 
 .card:hover .details .absolute-position {
