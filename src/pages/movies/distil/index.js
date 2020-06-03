@@ -42,9 +42,7 @@ function Movies() {
     }
   }
 
-  const sortedMovies = Movies.sort(compare_item)
-
-  
+  const sortedMovies = Movies.sort(compare_item);
 
   return (
     <div className='cardHolder'>

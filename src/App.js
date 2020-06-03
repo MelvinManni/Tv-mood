@@ -1,9 +1,9 @@
 import React from 'react';
-import Home from './pages/home/distil';
-import Movies from './pages/movies/distil/index';
-import Series from './pages/series/distil/index';
 import HeaderFooter from './components/headerFooter/HeaderFooter';
 import { Switch, Route } from 'react-router';
+import Home from './pages/home/distil';
+import Series from './pages/series/distil';
+import Movies from './pages/movies/distil';
 
 function App() {
   return (
