@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Tv-mood/precache-manifest.1bffb6e5527e5535773febc705a28e84.js"
+  "/Tv-mood/precache-manifest.a9e73bdb20e77915446f7d91369e953c.js"
 );
 
 self.addEventListener('message', (event) => {
