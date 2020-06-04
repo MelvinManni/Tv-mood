@@ -11,6 +11,7 @@ const imgStyle = {
   minWidth: 280
 };
 
+
 function ErrorPage() {
   return (
     <div style={style}>
