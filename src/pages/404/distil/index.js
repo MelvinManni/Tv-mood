@@ -1,5 +1,5 @@
 import React from 'react';
-import err from './../assets/2bf9f053182371.592b9aebf2af0.jpg';
+import err from './../assets/error.jpg';
 
 const style = {
   display: 'flex',

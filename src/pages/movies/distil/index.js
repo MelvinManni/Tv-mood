@@ -1,6 +1,6 @@
 import React from 'react';
 import store, { fetch } from '../../../redux/store/store';
-import { useSelector, Provider } from 'react-redux';
+import { useSelector } from 'react-redux';
 import { v4 as uuidv4 } from 'uuid';
 import Card from '../../../components/card/Card';
 import Loader from '../../../components/loader/Loader';

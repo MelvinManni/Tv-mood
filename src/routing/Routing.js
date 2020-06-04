@@ -11,13 +11,14 @@ function Routing() {
   return (
     <div className='Routing'>
       <BrowserRouter>
-        <Switch>
-          <HeaderFooter>
+        <HeaderFooter>
+          <Switch>
             <Route exact path='/' component={Home} />
             <Route exact path='/series' component={Series} />
             <Route exact path='/movies' component={Movies} />
-          </HeaderFooter>
-        </Switch>
+            <Route component={ErrorPage} />
+          </Switch>
+        </HeaderFooter>
       </BrowserRouter>
     </div>
   );
